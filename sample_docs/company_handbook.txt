@@ -1,0 +1,30 @@
+EMPLOYEE HANDBOOK — ACME ROBOTICS INC.
+
+SECTION 1: REMOTE WORK POLICY
+Employees may work remotely up to three days per week, subject to manager approval.
+Employees working remotely must be reachable during core hours, which are 10:00 AM to
+4:00 PM in their local time zone. Remote employees are responsible for maintaining a
+secure home network and must use company-issued VPN software when accessing internal
+systems.
+
+SECTION 2: EXPENSE REIMBURSEMENT
+Employees can submit expense reports through the internal Concur portal within 30 days
+of the purchase date. Reimbursable expenses include client meals (up to $75 per person),
+travel booked through the corporate travel portal, and approved software subscriptions
+under $200/month. Personal entertainment expenses are not reimbursable.
+
+SECTION 3: PAID TIME OFF
+Full-time employees accrue 15 days of paid time off (PTO) per year, increasing to 20
+days after three years of tenure. PTO requests must be submitted at least five business
+days in advance for planned absences. Sick leave is separate from PTO and does not
+require advance notice.
+
+SECTION 4: PERFORMANCE REVIEWS
+Performance reviews occur twice a year, in June and December. Reviews are based on a
+combination of self-assessment, manager evaluation, and peer feedback. Promotion cycles
+are aligned with the December review period.
+
+SECTION 5: EQUIPMENT POLICY
+New employees receive a laptop, monitor, and standard peripherals within their first
+week. Equipment requests outside the standard kit (e.g., additional monitors, ergonomic
+chairs) require manager approval and are processed through the IT service desk.
