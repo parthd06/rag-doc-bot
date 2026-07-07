@@ -100,3 +100,4 @@ rag-chatbot/
   Claude / Gemini) to show multi-LLM-API experience.
 - Add evaluation (e.g., RAGAS) to measure retrieval precision/recall and
   answer faithfulness against a labeled test set.
+# rag-doc-bot
