@@ -19,11 +19,11 @@
 
 ## About the project
 
-I built this chatbot so you can ask questions about your own documents in plain English and get answers that come straight from those documents, with the sources shown alongside.
+This chatbot lets you ask questions about your own documents in plain English and get answers straight from those documents, with sources shown alongside.
 
-It's a **Retrieval-Augmented Generation (RAG)** application. You give it a set of PDFs, text files or Markdown files. It indexes them into a **vector database**, and when you ask a question it finds the most relevant passages and has an **LLM** answer using only those passages. If the answer isn't in the documents, it says so instead of making something up.
+It's a **Retrieval-Augmented Generation (RAG)** application. You give it a set of PDFs, text files, or Markdown files. It indexes them into a **vector database**, and when you ask a question, it finds the most relevant passages and has an **LLM** answer using only those passages. If the answer isn't in the documents, it says so instead of making something up.
 
-My goal was to build the full RAG pipeline end to end, from ingestion through retrieval to grounded generation, in a way that's modular, easy to run, and transparent about where every answer comes from.
+The goal was to build the full RAG pipeline end to end, from ingestion through retrieval to grounded generation, in a way that's modular, easy to run, and transparent about where every answer comes from.
 
 ---
 
@@ -32,7 +32,7 @@ My goal was to build the full RAG pipeline end to end, from ingestion through re
 
 ### How it works
 
-1. **Ingest.** I load the documents and split them into small, overlapping chunks. Each chunk is turned into an **embedding**, a list of numbers that represents its meaning, and stored in **ChromaDB**.
+1. **Ingest.** Load the documents and split them into small, overlapping chunks. Each chunk is turned into an **embedding**, a list of numbers that represents its meaning, and stored in **ChromaDB**.
 2. **Retrieve.** When a question comes in, it's embedded the same way, and a **semantic search** pulls the chunks closest in meaning, even if the wording doesn't match exactly.
 3. **Generate.** The retrieved chunks go into a prompt that tells the model to answer **only from that context** and to say it doesn't know when the answer isn't there.
 4. **Show sources.** Every answer is displayed with the passages it was based on, so you can check it against the original text.
