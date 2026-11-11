@@ -2,7 +2,7 @@
 
 ## Tech Stack
 
-`Python` · `LangChain` · `LCEL` · `OpenAI API` · `GPT-4o-mini` · `OpenAI Embeddings` · `ChromaDB` · `Vector Database` · `Semantic Search` · `RAG` · `Prompt Engineering` · `Streamlit` · `PyPDF` · `Dev Containers`
+`Python` · `LangChain` · `GPT-4o-mini` · `OpenAI Embeddings` · `ChromaDB` · `Vector Database` · `Semantic Search` · `RAG` · `Prompt Engineering` · `Streamlit` · `Dev Containers`
 
 | Layer | Tools |
 |---|---|
