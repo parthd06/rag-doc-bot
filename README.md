@@ -28,7 +28,7 @@ My goal was to build the full RAG pipeline end to end, from ingestion through re
 ---
 
 ## Architecture Diagram
-
+![RAG Document Chatbot architecture](/architecture.png)
 
 ### How it works
 
